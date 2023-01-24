@@ -1,0 +1,35 @@
+* HTML 
+- Code đúng phân vùng task được chia 
+- Đặt tên class theo quy tắc BEM để dễ đọc code khi review (block__element--modifier)
+nếu chưa hiểu về BEM có thể tra google link https://viblo.asia/p/tim-hieu-ve-bem-trong-15-phut-924lJOk65PM
+
+*CSS 
++ Có 3 file CSS: main.css, dark-theme.css, responsive.css
+
+- main.css: chứa style chính cho layout gốc 
+
+- dark-theme.css: chứa style phụ khi chuyển sang Dark Theme, lấy selector các phần cần chuyển Dark Theme bên main.css chuyển sang
+    và thêm class dark-theme phía trước selector để style. Ví dụ: .dark-theme .header {}
+
+- responsive.css: chứa style responsive, responsive theo chuẩn Desktop First kết hợp với Grid System của BootsTrap (min-width)
+ + 4 Breakpoint cần lưu ý khi test responsive
+  - 0 < 576px 
+  - ≥ 576px
+  - ≥ 768px
+  - ≥ 992px
+  - ≥ 1200px
+ + sử dụng với max-width để responsive chung với BootsTrap thì giảm Breakpoint xuống
+  - 0 < 576px = @media screen and (max-width: 575.98px) {}
+  - ≥ 576px = @media screen and (max-width: 767.98px) {}
+  - ≥ 768px = @media screen and (max-width: 991.98px) {}
+  - ≥ 992px = @media screen and (max-width: 1199.98px) {}
+  - ≥ 1200px = không cần, vì mình đang xây dựng trên Desktop First nên lúc này layout đầu tiên mình làm ra là hoàn chỉnh nhất
+  cho 1200px trở lên (container của BootsTrap có max-width ở ≥ 1200px là 1140px và ≥ 1400px là 1320px)
+
+- nhớ comment cho các phân vùng CSS để dễ quản lý 
+
+*JavaScript 
+- gọi script thẳng trong file main.js (gọi trong này thì không cần dùng thẻ script)
+- comment chú thích mỗi script gọi ra 
+
+---- TẤT CẢ CODE NẰM NGAY DƯỚI CÁC COMMENT CHIA TÊN TRONG CÁC FILE CSS, JS ----
