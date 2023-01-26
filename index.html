@@ -31,6 +31,9 @@
       referrerpolicy="no-referrer"
     />
 
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="./library/Magnific Popup/magnific-popup.css" />
+
     <!-- Main CSS -->
     <link rel="stylesheet" href="./css/main.css" />
 
@@ -55,7 +58,41 @@
     <!-- Plan -->
     <section class="plan"></section>
     <!-- Video -->
-    <section class="video"></section>
+    <section class="video pt-4">
+      <div class="container py-5">
+        <div class="video__title text-center w-75 mx-auto">
+          <h6>BETTER PET NUTRITION.</h6>
+          <h3 class="fw-bold fs-1">
+            The Finest Fresh Food And All Your Pet Needs.
+          </h3>
+          <p class="mt-3 fs-5">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum
+            dolor sit amet elit consec tetur adipisi elit. Lorem ipsum dolor sit
+            amet elit consec tetur adipisi elit. Iure voluptatibus explicabo
+            officia.
+          </p>
+        </div>
+        <div
+          class="video__banner mt-5 w-75 mx-auto text-center position-relative"
+        >
+          <img src="./img/banner video.jpg" alt="" class="w-100 rounded-4" />
+          <a
+            href="#small-dialog"
+            class="position-absolute top-50 start-50 translate-middle open-popup-link popup-with-zoom-anim"
+          >
+            <i class="fa fa-play"></i>
+          </a>
+          <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+            <iframe
+              src="https://player.vimeo.com/video/305185528"
+              frameborder="0"
+              allow="autoplay; fullscreen"
+              allowfullscreen=""
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Testimonial -->
     <section class="testimonial"></section>
     <!-- Form Email -->
@@ -63,8 +100,13 @@
     <!-- Footer -->
     <footer></footer>
 
-    <!-- Main Js -->
-    <script src="./js/main.js"></script>
+    <!-- Jquery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+      integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
     <!-- Bootstrap JavaScript Libraries -->
     <script
@@ -78,5 +120,11 @@
       integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Magnific Popup Js -->
+    <script src="./library/Magnific Popup/jquery.magnific-popup.js"></script>
+
+    <!-- Main Js -->
+    <script src="./js/main.js"></script>
   </body>
 </html>
