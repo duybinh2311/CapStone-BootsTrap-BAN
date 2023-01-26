@@ -1,1 +1,0 @@
-File note để đẩy folder img lên remote
