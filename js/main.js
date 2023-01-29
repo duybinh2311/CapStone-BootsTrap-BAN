@@ -26,3 +26,11 @@ $(document).ready(function () {
     mainClass: 'my-mfp-zoom-in',
   })
 })
+
+// Owl Carousel 2
+$('.owl-carousel').owlCarousel({
+  loop: true,
+  margin: 15,
+  items: 2,
+  autoplay: true,
+})

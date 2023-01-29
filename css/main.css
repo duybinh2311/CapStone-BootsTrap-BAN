@@ -128,3 +128,68 @@ div#small-dialog iframe {
 .my-mfp-zoom-in.mfp-removing.mfp-bg {
   opacity: 0;
 }
+
+/* Testimonial CSS */
+.testimonial {
+  background-color: #F9F7FE;
+}
+
+.testimonial-title h6 {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #f53626;
+}
+.testimonial-item {
+  box-shadow: 0 25px 98px 0 rgb(19 19 19 / 3%);
+  background-color: white;
+}
+
+.testimonial-item__quote p {
+  font-size: 1.2rem;
+  color: #696969;
+  line-height: 28px;
+}
+
+.testimonial-item__quote p::before {
+  content: open-quote;
+  font-size: 50px;
+  color: #189a46;
+  line-height: 0.8;
+  padding-top: 8px;
+  font-weight: 600;
+  display: inline-block;
+  font-family: "Merriweather", serif;
+}
+
+.testimonial-item__quote p::after {
+  content: close-quote;
+}
+
+.testimonial-item__info {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.testimonial-item__avatar {
+  width: 70px;
+  height: 70px;
+}
+
+.testimonial-item__avatar img {
+  width: 100%;
+}
+
+.testimonial-item__name p:last-of-type {
+  color: #696969;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+  margin-top: 30px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #189a46;
+  width: 30px;
+}
+
