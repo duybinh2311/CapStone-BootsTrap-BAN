@@ -163,6 +163,7 @@ div#small-dialog iframe {
 
 .testimonial-item__quote p::after {
   content: close-quote;
+  margin-left: 0;
 }
 
 .testimonial-item__info {
@@ -192,4 +193,64 @@ div#small-dialog iframe {
   background-color: #189a46;
   width: 30px;
 }
+
+/* Form Email CSS */
+.form-email__title p {
+  color: #696969;
+  line-height: 28px;
+}
+
+.form-email-container__content input {
+  font-size: 16px;
+  color: #696969;
+  padding: 0px 20px;
+  height: 60px;
+  background: #fff;
+  height: 60px;
+}
+
+.form-email-container__content input:focus {
+  border: solid 1px #189a46;
+  box-shadow: none;
+  color: #696969;
+}
+
+.form-email-container__content .btn-success {
+  background-color: #189a46;
+  font-size: 18px;
+  transition: all 0.5s;
+}
+
+/* Footer CSS */
+footer a {
+  color: #696969;
+  transition: all 0.5s;
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer-top p {
+  color: #696969;
+}
+
+.footer-bot {
+  border-top: 1px solid rgba(105,105,105,0.3);
+}
+
+.footer-bot p {
+  color: #696969;
+  margin: 0;
+}
+
+.footer-bot span {
+  color: #f53626;
+}
+
 
