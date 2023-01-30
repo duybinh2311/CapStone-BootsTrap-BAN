@@ -1,5 +1,39 @@
 /* Dark Theme Gia Như */
 
 /* Dark Theme An */
+.mode-container {
+    width: 24px;
+    height: 24px;
+    padding: 3px 0;
+    margin-left: 20px;
+  }
+  
+  .mode-container {
+    display: block;
+  }
+  
+  .mode-container  {
+    display: none;
+  }
+  
+  /*-- //dark and light mode styling --*/
+  button.navbar-toggler .icon-close {
+    display: block;
+  }
+  
+  button.navbar-toggler .icon-expand {
+    display: none;
+  }
+  
+  button.navbar-toggler.collapsed .icon-close {
+    display: none;
+  }
+  
+  button.navbar-toggler.collapsed .icon-expand {
+    display: block;
+  }
+  .dark-theme .why__right h3 {
+    color: white;
+  }
 
 /* Dark Theme Duy Bình */

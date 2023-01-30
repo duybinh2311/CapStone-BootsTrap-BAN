@@ -6,6 +6,8 @@ document.getElementById('changeTheme').onclick = function changeTheme() {
 // JavaScript Gia Như
 
 // JavaScript An
+// Number
+$('.counter').countUp()
 
 // JavaScript Duy Bình
 // Magnific Popup
