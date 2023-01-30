@@ -131,7 +131,7 @@ div#small-dialog iframe {
 
 /* Testimonial CSS */
 .testimonial {
-  background-color: #F9F7FE;
+  background-color: #f9f7fe;
 }
 
 .testimonial-title h6 {
@@ -158,7 +158,7 @@ div#small-dialog iframe {
   padding-top: 8px;
   font-weight: 600;
   display: inline-block;
-  font-family: "Merriweather", serif;
+  font-family: 'Merriweather', serif;
 }
 
 .testimonial-item__quote p::after {
@@ -185,11 +185,12 @@ div#small-dialog iframe {
   color: #696969;
 }
 
-.owl-theme .owl-nav.disabled+.owl-dots {
+.owl-theme .owl-nav.disabled + .owl-dots {
   margin-top: 30px;
 }
 
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
   background-color: #189a46;
   width: 30px;
 }
@@ -241,7 +242,7 @@ footer ul li {
 }
 
 .footer-bot {
-  border-top: 1px solid rgba(105,105,105,0.3);
+  border-top: 1px solid rgba(105, 105, 105, 0.3);
 }
 
 .footer-bot p {
@@ -252,5 +253,3 @@ footer ul li {
 .footer-bot span {
   color: #f53626;
 }
-
-
