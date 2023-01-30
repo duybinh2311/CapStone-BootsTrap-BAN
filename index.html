@@ -43,14 +43,163 @@
 
   <body id="body">
     <button id="changeTheme">Change Theme</button>
-    <!-- Header -->
-    <header></header>
-    <!-- Carousel -->
-    <section class="carousel"></section>
-    <!-- About -->
-    <section class="about"></section>
-    <!-- Services -->
-    <section class="services"></section>
+
+
+    <nav class="navbar" id="navbar">
+      <div class="navbar-container container">
+          <input type="checkbox" name="" id=""/>
+          <div class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+          </div>
+          <ul class="menu-items">
+              <li ><a href="" class="active nav-item">Home</a></li>
+
+              <li><a href="" class="nav-items">About</a></li>
+              <li><a href="" class="nav-items">Services</a></li>
+              <li><a href="" class="nav-items">Gallery</a></li>
+              <li><a href="" class="nav-items">Blog</a></li>
+              <li><a href="" class="nav-items">Contact</a></li>
+
+
+              <i onclick="dark()" class="icon fa fa-moon-o" aria-hidden="true"></i>
+          </ul>
+          <h1 class="logo"> <a href="" style="color: #189A46;"> Pooch Care</a></h1>
+      </div>
+  </nav>
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/banner1.jpg" class="d-block w-100" alt="...">
+          <div class="caption d-none d-md-block">
+            <h1>Quality Things for Loving Pets</h1>
+            <p>Keeps your Pet Smiling</p>
+            <div class="btn">
+              <button >Read More</button>
+              <button class="contact " >Contact Us</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/banner2.jpg" class="d-block w-100" alt="...">
+          <div class="caption d-none d-md-block">
+            <h1>Delivering happiness for Pets</h1>
+            <p>For the love of pets</p>
+            <div class="btn">
+              <button >Read More</button>
+              <button class="contact " >Contact Us</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/banner3.jpg" class="d-block w-100" alt="...">
+          <div class="caption d-none d-md-block">
+            <h1>Quality Things for Loving Pets</h1>
+            <p>Keeps your Pet Smiling</p>
+            <div class="btn">
+              <button >Read More</button>
+              <button class="contact " >Contact Us</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/banner4.jpg" class="d-block w-100" alt="...">
+          <div class="caption d-none d-md-block">
+            <h1>Delivering happiness for Pets</h1>
+            <p>For the love of pets</p>
+            <div class="btn">
+              <button >Read More</button>
+              <button class="contact " >Contact Us</button>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+
+
+
+  <div class="abouts">
+    <h3>ABOUT US</h3>
+    <h1>We Love Your Pets Like They Are Our Own</h1>
+    <p class="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio voluptatem tenetur consequatur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis.</p>
+  </div>  
+
+
+  <div class="read-more">
+    <h2>Read More</h2>
+  </div>
+
+
+  <div class="content-read-more row " id="content-read-more">
+    <div class="item-read-more col-12 col-md-4">
+      <div class="item">
+        <i class="fa fa-snowflake-o" aria-hidden="true"></i>
+        <h2>Dog Walking</h2>
+        <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.</p>
+        <h3>Read More</h3>
+      </div>
+     
+    </div>
+    <div class="item-read-more col-12 col-md-4">
+      <div class="item">
+        <i class="fa fa-cutlery" aria-hidden="true"></i>
+        <h2>Healthy Meals</h2>
+      <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.</p>
+      <h3>Read More</h3>
+      </div>
+      
+    </div>
+    <div class="item-read-more col-12 col-md-4">
+      <div class="item">
+        <i class="fa fa-sign-language" aria-hidden="true"></i>
+        <h2>Pet Sitting</h2>
+      <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.</p>
+      <h3>Read More</h3>
+      </div>
+      
+    </div>
+    <div class="item-read-more col-12 col-md-4">      
+      <div class="item">
+        <i class="fa fa-sitemap" aria-hidden="true"></i>
+        <h2>Dog Activities</h2>
+      <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.</p>
+      <h3>Read More</h3>
+      </div>
+      
+    </div>
+    <div class="item-read-more col-12 col-md-4">
+      <div class="item">
+        <i class="fa fa-shower" aria-hidden="true"></i>
+        <h2>Pet Daycare</h2>
+        <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.</p>
+        <h3>Read More</h3>
+      </div>
+     
+    </div>
+    <div class="item-read-more col-12 col-md-4">
+      <div class="item">
+        <i class="fa fa-user-md" aria-hidden="true"></i>
+        <h2>Pet Grooming</h2>
+        <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet. Lorem ipsum dolor sit amet Ut blandit eu leo.</p>
+        <h3>Read More</h3>
+      </div>
+     
+    </div>
+    
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+
     <!-- Choose -->
     <section class="choose"></section>
     <!-- Statis -->
