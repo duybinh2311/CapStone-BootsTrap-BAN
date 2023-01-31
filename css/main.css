@@ -263,3 +263,10 @@ footer ul li {
 .footer-bot span {
   color: #f53626;
 }
+
+.back-to-top {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  z-index: 10;
+}

@@ -38,3 +38,17 @@ $('.owl-carousel').owlCarousel({
     },
   },
 })
+
+// Back To Top
+window.onscroll = function hideBackToTop() {
+  if (document.documentElement.scrollTop > 20) {
+    document.getElementsByClassName('back-to-top')[0].style.display = 'block'
+  } else {
+    document.getElementsByClassName('back-to-top')[0].style.display = 'none'
+  }
+}
+
+document.getElementsByClassName('back-to-top')[0].onclick =
+  function backToTop() {
+    document.documentElement.scrollTop = 0
+  }
