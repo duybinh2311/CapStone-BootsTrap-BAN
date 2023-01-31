@@ -35,6 +35,11 @@ ul {
 
 /* CSS Duy Bình */
 /* Video CSS */
+.video__title,
+.video__banner {
+  max-width: 990px;
+}
+
 .video__title h6 {
   font-size: 18px;
   letter-spacing: 1px;
@@ -196,6 +201,11 @@ div#small-dialog iframe {
 }
 
 /* Form Email CSS */
+.form-email__title,
+.form-email-container {
+  max-width: 660px;
+}
+
 .form-email__title p {
   color: #696969;
   line-height: 28px;
