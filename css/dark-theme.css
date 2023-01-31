@@ -1,5 +1,21 @@
 /* Dark Theme Gia Như */
-
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+.navbar-dark{
+    background-color: #000;
+    color: #fff;
+}
+.nav-item-dark{
+    color: #fff !important;
+}
+.content-read-more-dark{
+    background-color: #000;   
+}
+.item-dark{
+    background-color: #262222;
+}
 /* Dark Theme An */
 .mode-container {
   width: 24px;
