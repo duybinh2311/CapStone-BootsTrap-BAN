@@ -452,7 +452,7 @@ ul {
   padding-top: 6px;
 }
 
-p {
+.w3l-pricing-7-main p {
   margin: 0;
   padding: 0;
   font-size: 1.2em;
@@ -701,12 +701,6 @@ a:hover {
 .blog {
   background: var(--bg-light) !important;
   padding: 90px 0;
-}
-
-.row {
-  /* padding: 60px 0; */
-  width: 100%;
-  margin-left: 0px;
 }
 
 .container .row {
