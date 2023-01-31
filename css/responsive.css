@@ -1,5 +1,312 @@
 /* Responsive Gia Như */
 
 /* Responsive An */
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+@media (max-width: 992px) {
+  .stats_info p {
+    font-size: 40px !important;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 992px) {
+  .stats_info h4 {
+    font-size: 18px !important;
+  }
+}
+@media (min-width: 36em) {
+  .d-md-block {
+    display: block !important;
+  }
+}
+@media (max-width: 1200px) {
+  .carousel-caption h5 {
+    font-size: 52px;
+    line-height: 62px;
+  }
+
+  .carousel-caption p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .carousel-caption h5 {
+    font-size: 50px;
+    line-height: 55px;
+  }
+
+  .banner .owl-nav {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-caption p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 480px) {
+  .carousel-caption h5 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  /* .carousel-item img {
+        min-height: 480px;
+        width: 100% !important;
+    } */
+}
+
+@media (max-width: 480px) {
+  .carousel-caption h5 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  /* .carousel-item img {
+        min-height: 480px;
+        width: 100% !important;
+    } */
+}
+
+/* @media (max-width:440px) {
+    .carousel-item img {
+        min-height: 440px;
+        
+    }
+} */
+.w3l-pricing-7-main .pricing-sec-7 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 5% auto;
+  margin-top: 0;
+  width: 90%;
+}
+
+@media (max-width: 378px) {
+  .hny-title {
+    font-size: 27px !important;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hny-title {
+    font-size: 32px !important;
+    line-height: 38px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .hny-title {
+    font-size: 35px !important;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 415px) {
+  .w3l-pricing-7-main .pricing-sec-7 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .w3l-pricing-7-main .pricing-sec-7 {
+    width: 80%;
+  }
+}
+
+@media (max-width: 568px) {
+  .w3l-pricing-7-main .pricing-sec-7 {
+    grid-gap: 20px;
+    margin: 30px auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .w3l-pricing-7-main .pricing-sec-7 {
+    width: 75%;
+  }
+}
+
+@media (max-width: 800px) {
+  .w3l-pricing-7-main .pricing-sec-7 {
+    width: 60%;
+  }
+}
+
+@media (max-width: 800px) {
+  .w3l-pricing-7-main .pricing-sec-7 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    margin: 50px auto 0;
+  }
+}
+
+@media (max-width: 1366px) {
+  .w3l-pricing-7-main .pricing-sec-7 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 800px) {
+  .w3l-pricing-7-main .pric-7-1 {
+    border: 1px solid var(--bg-color);
+  }
+}
+
+@media (max-width: 800px) {
+  .w3l-pricing-7-main .pric-7-2 {
+    border: 1px solid var(--bg-color);
+  }
+}
+@media only screen and (max-width: 991px) {
+  .popup {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  .btn-white,
+  .btn-style {
+    padding: 12px 30px;
+  }
+}
+@media (max-width: 800px) {
+  .w3l-index5 .middle-section h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 667px) {
+  .w3l-index5 .middle-section h2 {
+    font-size: 32px !important;
+    line-height: 42px;
+  }
+
+  .w3l-index5 .play-view {
+    left: 0;
+    right: 0;
+    top: calc(50% - 28px);
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+@media (max-width: 992px) {
+  .stats_info p {
+    font-size: 40px !important;
+    line-height: 50px;
+  }
+}
+@media (max-width: 992px) {
+  .stats_info h4 {
+    font-size: 18px !important;
+  }
+}
+@media (min-width: 36em) {
+  .d-md-block {
+    display: block !important;
+  }
+}
+@media (max-width: 1200px) {
+  .carousel-caption h5 {
+    font-size: 52px;
+    line-height: 62px;
+  }
+
+  .carousel-caption p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .carousel-caption h5 {
+    font-size: 50px;
+    line-height: 55px;
+  }
+
+  .banner .owl-nav {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-caption p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-caption h5 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
 
 /* Responsive Duy Bình */
