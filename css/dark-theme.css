@@ -1,3 +1,8 @@
+/* Body Dark Theme */
+.dark-theme {
+  background-color: #151515;
+}
+
 /* Dark Theme Gia Như */
 .dark-mode {
     background-color: black;
@@ -56,10 +61,6 @@ button.navbar-toggler.collapsed .icon-expand {
 }
 
 /* Dark Theme Duy Bình */
-.dark-theme#body {
-  background-color: #151515;
-}
-
 /* Dark Theme Video CSS */
 .dark-theme .video__title h3 {
   color: #dddddd;

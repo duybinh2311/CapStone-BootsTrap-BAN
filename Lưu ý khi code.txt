@@ -33,3 +33,4 @@ nếu chưa hiểu về BEM có thể tra google link https://viblo.asia/p/tim-h
 - comment chú thích mỗi script gọi ra 
 
 ---- TẤT CẢ CODE NẰM NGAY DƯỚI CÁC COMMENT CHIA TÊN TRONG CÁC FILE CSS, JS ----
+---- Duy Bình ----

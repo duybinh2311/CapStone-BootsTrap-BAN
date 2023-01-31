@@ -1,6 +1,8 @@
-// Change Theme
-document.getElementById('changeTheme').onclick = function changeTheme() {
-  document.getElementById('body').classList.toggle('dark-theme')
+// Change Theme Button Duy Bình
+document.getElementsByClassName('change-theme')[0].onclick = function changeTheme() {
+  document.getElementsByTagName('body')[0].classList.toggle('dark-theme')
+  document.getElementsByTagName('i')[0].classList.toggle('d-none')
+  document.getElementsByTagName('i')[1].classList.toggle('d-none')
 }
 
 // JavaScript Gia Như
@@ -33,6 +35,7 @@ function dark() {
 
  
 }
+
 // JavaScript An
 // Number
 $('.counter').countUp()
