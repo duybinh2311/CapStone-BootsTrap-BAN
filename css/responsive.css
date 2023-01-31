@@ -35,12 +35,13 @@
         max-width: 1200px;
     }
 }
-@media (max-width: 992px) {
+@media (max-width: 992px) { 
     .stats_info p {
         font-size: 40px !important;
         line-height: 50px;
     }
 }
+
 @media (max-width: 992px) {
     .stats_info h4 {
         font-size: 18px !important;
