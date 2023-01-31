@@ -35,6 +35,11 @@ ul {
 
 /* CSS Duy Bình */
 /* Video CSS */
+.video__title,
+.video__banner {
+  max-width: 990px;
+}
+
 .video__title h6 {
   font-size: 18px;
   letter-spacing: 1px;
@@ -127,4 +132,141 @@ div#small-dialog iframe {
 
 .my-mfp-zoom-in.mfp-removing.mfp-bg {
   opacity: 0;
+}
+
+/* Testimonial CSS */
+.testimonial {
+  background-color: #f9f7fe;
+}
+
+.testimonial-title h6 {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #f53626;
+}
+.testimonial-item {
+  box-shadow: 0 25px 98px 0 rgb(19 19 19 / 3%);
+  background-color: white;
+}
+
+.testimonial-item__quote p {
+  font-size: 1.2rem;
+  color: #696969;
+  line-height: 28px;
+}
+
+.testimonial-item__quote p::before {
+  content: open-quote;
+  font-size: 50px;
+  color: #189a46;
+  line-height: 0.8;
+  padding-top: 8px;
+  font-weight: 600;
+  display: inline-block;
+  font-family: 'Merriweather', serif;
+}
+
+.testimonial-item__quote p::after {
+  content: close-quote;
+  margin-left: 0;
+}
+
+.testimonial-item__info {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.testimonial-item__avatar {
+  width: 70px;
+  height: 70px;
+}
+
+.testimonial-item__avatar img {
+  width: 100%;
+}
+
+.testimonial-item__name p:last-of-type {
+  color: #696969;
+}
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 30px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: #189a46;
+  width: 30px;
+}
+
+/* Form Email CSS */
+.form-email__title,
+.form-email-container {
+  max-width: 660px;
+}
+
+.form-email__title p {
+  color: #696969;
+  line-height: 28px;
+}
+
+.form-email-container__content input {
+  font-size: 16px;
+  color: #696969;
+  padding: 0px 20px;
+  height: 60px;
+  background: #fff;
+  height: 60px;
+}
+
+.form-email-container__content input:focus {
+  border: solid 1px #189a46;
+  box-shadow: none;
+  color: #696969;
+}
+
+.form-email-container__content .btn-success {
+  background-color: #189a46;
+  font-size: 18px;
+  transition: all 0.5s;
+}
+
+/* Footer CSS */
+footer a {
+  color: #696969;
+  transition: all 0.5s;
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer-top p {
+  color: #696969;
+}
+
+.footer-bot {
+  border-top: 1px solid rgba(105, 105, 105, 0.3);
+}
+
+.footer-bot p {
+  color: #696969;
+  margin: 0;
+}
+
+.footer-bot span {
+  color: #f53626;
+}
+
+.back-to-top {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  z-index: 10;
 }
