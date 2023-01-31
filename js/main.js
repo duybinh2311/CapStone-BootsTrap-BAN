@@ -1,39 +1,33 @@
 // Change Theme Button Duy Bình
-document.getElementsByClassName('change-theme')[0].onclick = function changeTheme() {
-  document.getElementsByTagName('body')[0].classList.toggle('dark-theme')
-  document.getElementsByTagName('i')[0].classList.toggle('d-none')
-  document.getElementsByTagName('i')[1].classList.toggle('d-none')
-}
+document.getElementsByClassName('change-theme')[0].onclick =
+  function changeTheme() {
+    document.getElementsByTagName('body')[0].classList.toggle('dark-theme')
+    document.getElementsByTagName('i')[0].classList.toggle('d-none')
+    document.getElementsByTagName('i')[1].classList.toggle('d-none')
+  }
 
 // JavaScript Gia Như
 function dark() {
-  var element = document.body;
-  element.classList.toggle("dark-mode");
-
+  var element = document.body
+  element.classList.toggle('dark-mode')
 
   const readmore = document.getElementById('content-read-more')
   readmore.classList.toggle('content-read-more-dark')
- 
+
   const item = document.getElementsByClassName('item')
   for (const items of item) {
-      items.classList.toggle('item-dark');
-    }
+    items.classList.toggle('item-dark')
+  }
 
-  
   var nav = document.getElementById('navbar')
   nav.classList.toggle('navbar-dark')
-  
- 
+
   const navitem = document.getElementsByClassName('nav-items')
   // navitem.classList.add('nav-item-dark')
 
-  
   for (const nav of navitem) {
-      nav.classList.toggle('nav-item-dark');
-    }
-
-
- 
+    nav.classList.toggle('nav-item-dark')
+  }
 }
 
 // JavaScript An

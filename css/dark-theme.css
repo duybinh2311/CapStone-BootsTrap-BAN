@@ -5,21 +5,21 @@
 
 /* Dark Theme Gia Như */
 .dark-mode {
-    background-color: black;
-    color: white;
-  }
-.navbar-dark{
-    background-color: #000;
-    color: #fff;
+  background-color: black;
+  color: white;
 }
-.nav-item-dark{
-    color: #fff !important;
+.navbar-dark {
+  background-color: #000;
+  color: #fff;
 }
-.content-read-more-dark{
-    background-color: #000;   
+.nav-item-dark {
+  color: #fff !important;
 }
-.item-dark{
-    background-color: #262222;
+.content-read-more-dark {
+  background-color: #000;
+}
+.item-dark {
+  background-color: #262222;
 }
 /* Dark Theme An */
 .mode-container {
